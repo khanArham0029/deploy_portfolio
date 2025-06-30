@@ -13,11 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Data & Model Foundation"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="The first step is to gather and prepare data for training. This includes collecting both structured and unstructured data, cleaning it, and making it suitable for machine learning models. At this stage, it is also important to understand the specific needs of AI chatbots and agents—what problems they will solve and how users will interact with them. Once the requirements are clear, the right machine learning models, such as NLP models, transformers, or deep learning techniques, are selected to build a strong foundation."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Intelligent Agent & Chatbot Integration"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="After preparing the data and selecting models, the next step is to develop the AI chatbot or agent. This involves building a system that can recognize user intent, understand context, and generate meaningful responses. To make the chatbot more intelligent, techniques like reinforcement learning, embeddings, and retrieval-augmented generation (RAG) are used. Fine-tuning is done to ensure the chatbot or agent can handle dynamic decision-making and provide a smooth user experience."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,11 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment & Continuous Learning"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Once the AI system is built, it is deployed across different platforms, such as websites, mobile applications, or APIs. However, deployment is not the final step. The AI chatbot or agent needs to be continuously monitored to improve its responses and adapt to new user inputs. Feedback loops help refine the system, and techniques like fine-tuning, active learning, and human-in-the-loop corrections ensure that the AI remains effective and up-to-date over time.
+
+This structured approach ensures that AI chatbots and intelligent agents are not only functional but also continuously improving to provide better user experiences. "
         >
           <CanvasRevealEffect
             animationSpeed={3}

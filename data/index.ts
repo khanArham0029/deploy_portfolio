@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize team collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "I speak fluent Python… and occasionally human 🐍💬",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,12 +49,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building an AI Agent for automating the application process when applying for University",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/ray-so-export (4).png",
     spareImg: "/grid.svg",
   },
   {
@@ -72,30 +72,38 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "EduVantage: AI Graduate Recommender",
+    des: "An AI-powered web platform recommending universities using NLP, NER, and LLMs, RAGs, Smart Search, and more.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/icons8-supabase.svg", "/icons8-selenium.svg", "/icons8-python.svg", "/icons8-chatgpt.svg", "/langchain-icon-white-seeklogo.png", "/icons8-mongo-db-48.png"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Glaucoma Detection System",
+    des: "An advanced U-Net-based model designed for early glaucoma detection, trained on  ophthalmic datasets, it achieves 87% accuracy in segmenting affected regions.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/icons8-python.svg", "/icons8-tensorflow.svg", "/icons8-flask (1).svg" ],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Video Prediction Model",
+    des: "Generated future video frames from short sequences using deep learning. The model predicts the next 10 frames based on the first 10 frames, achieving 90% accuracy.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/icons8-python.svg", "/icons8-pytorch.svg", "/icons8-flask (1).svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
+    title: "AutoML Vision on Google Cloud Vertex AI",
+    des: "Developed and deployed an image classification model on Google Cloud to detect damaged car parts using AutoML.",
+    img: "/p4.svg",
+    iconLists: ["/icons8-google-cloud.svg", "/vertexai-svgrepo-com.svg" ],
+    link: "/ui.apple.com",
+  },
+  {
+    id: 5,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
