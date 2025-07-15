@@ -39,7 +39,7 @@ export const BackgroundGradientAnimation = ({
   const [curY, setCurY] = useState(0);
   const [tgX, setTgX] = useState(0);
   const [tgY, setTgY] = useState(0);
-  useEffect(() => {
+useEffect(() => {
   if (typeof window !== "undefined" && typeof document !== "undefined") {
     document.body.style.setProperty(
       "--gradient-background-start",
