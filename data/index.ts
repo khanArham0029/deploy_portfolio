@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building an AI Agent for automating the application process when applying for University",
+    title: "Currently building an Multi Agent System enhaced with a RAG pipeline for automating  POE Systems",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,38 +72,56 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "EduVantage: AI Graduate Recommender",
-    des: "An AI-powered web platform recommending universities using NLP, NER, and LLMs, RAGs, Smart Search, and more.",
-    img: "/p1.svg",
-    iconLists: ["/icons8-supabase.svg", "/icons8-selenium.svg", "/icons8-python.svg", "/icons8-chatgpt.svg", "/langchain-icon-white-seeklogo.png", "/icons8-mongo-db-48.png"],
-    link: "/ui.earth.com",
+    title: "WebGator",
+    des: "A React-based web consulting platform that lets users enter project requirements and instantly receive cost estimates, streamlining early-stage communication between clients and developers.",
+    img: "/webgator.jpg",
+    iconLists: ["/icons8-react.svg",  "/icons8-mongo-db-48.png", "/icons8-node-js.svg"],
+    link: "/https://eduvantage-ai.netlify.app/",
   },
   {
     id: 2,
+    title: "Goali",
+    des: "Goali is a full-stack fundraising and event management app with live auctions, secure payments, and real-time bid updates. Built with React, Node.js, and Supabase, it supports donations, bidding, and role-based admin controls.",
+    img: "/goali.jpg",
+    iconLists: ["/icons8-react.svg",  "/icons8-mongo-db-48.png", "/icons8-node-js.svg"],
+    link: "/https://eduvantage-ai.netlify.app/",
+  },
+
+
+  {
+    id: 3,
+    title: "EduVantage: AI Graduate Recommender",
+    des: "An AI-powered web platform recommending universities using NLP, NER, and LLMs, RAGs, Smart Search, and more.",
+    img: "/eduvantage.png",
+    iconLists: ["/icons8-supabase.svg", "/icons8-selenium.svg", "/icons8-python.svg", "/icons8-chatgpt.svg", "/langchain-icon-white-seeklogo.png", "/icons8-mongo-db-48.png"],
+    link: "/https://eduvantage-ai.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Glaucoma Detection System",
     des: "An advanced U-Net-based model designed for early glaucoma detection, trained on  ophthalmic datasets, it achieves 87% accuracy in segmenting affected regions.",
-    img: "/p2.svg",
+    img: "/glacoma.png",
     iconLists: ["/icons8-python.svg", "/icons8-tensorflow.svg", "/icons8-flask (1).svg" ],
     link: "/ui.yoom.com",
   },
   {
-    id: 3,
+    id: 5,
     title: "Video Prediction Model",
     des: "Generated future video frames from short sequences using deep learning. The model predicts the next 10 frames based on the first 10 frames, achieving 90% accuracy.",
-    img: "/p3.svg",
+    img: "/video pred.png",
     iconLists: ["/icons8-python.svg", "/icons8-pytorch.svg", "/icons8-flask (1).svg"],
     link: "/ui.aiimg.com",
   },
   {
-    id: 4,
+    id: 6,
     title: "AutoML Vision on Google Cloud Vertex AI",
     des: "Developed and deployed an image classification model on Google Cloud to detect damaged car parts using AutoML.",
-    img: "/p4.svg",
+    img: "/automl.png",
     iconLists: ["/icons8-google-cloud.svg", "/vertexai-svgrepo-com.svg" ],
-    link: "/ui.apple.com",
+    link: "/automl.png",
   },
   {
-    id: 5,
+    id: 7,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
@@ -115,34 +133,11 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "Working with Arham Akmal has been an exceptional experience. His ability to understand our business needs and translate them into innovative digital solutions was truly impressive. Arham’s attention to detail, proactive communication, and commitment to quality made the entire process seamless. For any organization looking to drive digital transformation, Arham is the professional you want on your team.",
+    name: "Saud Altamimi",
+    title: "CEO of Intelligent Solutions, Saudi Arabia",
+  }
+ 
 ];
 
 export const companies = [
@@ -181,32 +176,25 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer Intern",
+    desc: "Assisted in the development of a web-based LMS system using Vue.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "AI/ML Engineer",
+    desc: "Leading the development of an Multi agent system.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "AI and Automation Developer",
+    desc: "Developed and Assisted in automations using Python, n8n, enhancing operational efficiency.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+    thumbnail: "/exp2.svg",
+  }
 ];
 
 export const socialMedia = [
@@ -214,10 +202,7 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+
   {
     id: 3,
     img: "/link.svg",
